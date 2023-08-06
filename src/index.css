@@ -1,0 +1,774 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#Nav{
+  opacity: 0.9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+#Title{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  letter-Spacing: 3px;
+}
+
+.Logo{
+  display: block;
+  background-size: cover;
+  object-fit: 'cover';
+  height: 60px;
+  width: 70px;
+  margin-left: 1%;
+}
+
+#introText{
+  width: 600px;
+}
+
+.firstImg{
+  display: block;
+}
+
+.vidImg{
+  height: 200px;
+  width: 300px; 
+  position: absolute;
+  top: 134%;
+  left: 60%;
+  border-style: solid;
+  border-width: 7px;
+  border-color: white; 
+}
+
+
+#carouselExampleInterval{
+  display: block;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.play {
+  height: 50px; 
+  width: 50px;
+  position: absolute; 
+  top: 146%; 
+  left: 69%;
+}
+
+.play:hover{
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2);
+}
+
+.btn1{
+  background-color: #B97612;
+  color: antiquewhite;
+  border-style: none;
+  border-color: #B97612;
+  display: block;
+}
+
+.btn1:hover{
+  background-color: wheat;
+  color: #e4941c;
+}
+
+.image{
+  background-image: url(./Components/Images/pic18_2.jpeg);
+  position: absolute;
+  top: 195%;
+  height: 690px;
+  width: 1349px;
+  background-size: cover;
+  object-fit: cover;
+  margin-left: 0.5px;
+  background-attachment: fixed;
+  background-position: center;
+  filter: brightness(40%);
+}
+
+.servicesTitle{
+  color: white;
+  font-family: sans-serif; 
+  position: absolute;
+  top: 205%;
+  left: 5%;
+  font-size: 30px; 
+  font-weight: bold; 
+  letter-spacing: 1.5px;
+}
+
+.servicesText{
+  position: absolute;
+  top: 220%;
+  left: 4.8%;
+  width: 50%;
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.Servrenovation{
+  position: absolute;
+  top: 210%;
+  left: 60%;
+  height: 200px;
+  width: 260px;
+  background-size: cover;
+  object-fit: cover;
+  outline: 5px solid white;
+  filter: brightness(90%);
+}
+
+.Servresturaunt{
+  position: absolute;
+  top: 255%;
+  left: 60%;
+  height: 200px; 
+  width: 260px;
+  background-size: cover;
+  object-fit: cover; 
+  outline: 5px solid white; 
+  filter: brightness(90%);
+}
+
+.Servkitchen{
+  position: absolute;
+  top: 230%;
+  left: 72%;
+  height: 200px; 
+  width: 260px;
+  background-size: cover;
+  object-fit: cover; 
+  outline: 5px solid white;
+  filter: brightness(85%);
+}
+
+.projectsheader{
+  position:absolute;
+  top:320%; 
+  left: 4.5%; 
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.projectsheader2{
+  position:absolute;
+  top:320%;
+  left: 14%;
+  color: #B97612;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.listDiv{
+  position:absolute;
+  top:320%; 
+  left: 40%;
+}
+
+#list1{
+  padding-right: 20px;
+  color: #B97612;
+  letter-spacing: 1.7px;
+}
+
+#list{
+  padding-right: 20px;
+  letter-spacing: 1.7px;
+  color: gray;
+}
+
+#list:hover{
+  color: #B97612;
+}
+
+#card{
+  transition: transform 0.3s ease-in-out;
+}
+
+#card:hover{
+  transform: scale(1.05);
+  opacity: 0.9;
+  filter: brightness(40%);
+  display: block;
+}
+
+.divPic{
+  background: url(./Components/Images/divPic.jpg);
+  height: 550px;
+  width: 1300px;
+  position: absolute;
+  top: 432%;
+  left: 1.75%;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-position: center;
+  filter: brightness(15%);
+}
+
+#consultBtn{
+    border-color: #c48931;
+    background-color: rgb(236, 223, 200);
+    color: #B97612;
+    font-weight: bold;
+}
+
+#consultBtn:hover{
+    background-color: #B97612;
+    color: wheat;
+}
+
+#cardTitles{
+  transition: transform 0.3s ease-in;
+}
+
+#cardTitles:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #B97612;
+}
+
+#designCard1{
+  border-style: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+#designCard1:hover{
+  transform: scale(1.03);
+  border-style: solid;
+  border-radius: '0px';
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+#designCard2{
+  border-style: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+#designCard2:hover{
+  transform: scale(1.03);
+  border-style: solid;
+  border-radius: '0px';
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+#designCard3{
+  border-style: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+#designCard3:hover{
+  transform: scale(1.03);
+  border-style: solid;
+  border-radius: '0px';
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+#cardBtn{
+  color: gray;
+}
+
+#cardBtn:hover{
+  color: #B97612; 
+}
+
+#carousalPic{
+  background-size: cover;
+  object-fit: cover;
+  width: 1200px;
+  height: 610px;
+  filter: brightness(25%);
+}
+
+#card1{
+  width:18rem;
+  position:absolute;
+  top:335%;
+  left: 4%;
+}
+#card2{
+  width:18rem;
+  position:absolute;
+  top:335%;
+  left: 28%;
+}
+#card3{
+  width:18rem;
+  position:absolute;
+  top:335%;
+  left: 52%;
+}
+#card4{
+  width:18rem;
+  position:absolute;
+  top:335%;
+  left: 76%;
+}
+#card5{
+  width:18rem;
+  position:absolute;
+  top:380%;
+  left: 4%;
+}
+#card6{
+  width:18rem;
+  position:absolute;
+  top:380%;
+  left: 28%;
+}
+#card7{
+  width:18rem;
+  position:absolute;
+  top:380%;
+  left: 52%;
+}
+#card8{
+  width:18rem;
+  position:absolute;
+  top:380%;
+  left: 76%;
+}
+.card_title{
+  display: none;
+}
+.textContent{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  position: absolute;
+  color: rgb(255, 253, 253);
+  bottom: -100%;
+  transition: 0.6s;
+}
+
+.card:hover .textContent{
+  background-color: rgba(54, 36, 14, 0.61);
+  bottom: 0;
+}
+
+#upButton{
+  font-size: 20px;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 16px;
+  left: 1250px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  color: white;
+  background-color: #ff9f0e;
+  opacity: 0.8;
+  padding: 9.4px 10px; 
+}
+
+@media only screen and (max-width: 390px){
+ 
+    #carouselExampleInterval{
+      display: none;
+    }
+
+    #Nav{
+      width: 93.5%;
+      padding-left: 0.5%;
+    }
+
+    .Logo{
+      display: none;
+    }
+
+    #Title{
+      font-size: 20px;
+      padding-left: 30px;
+    }
+
+    #welcome{
+      margin-top: -910px;
+      font-size: 19px;
+      font-weight: bold;
+      padding-left: 2%;
+
+    }
+
+    #interiors{
+      margin-top: -910px;
+      font-size: 19px;
+      margin-left: 16%;
+      font-weight: bold;
+    }
+
+    #smallHeader{
+      margin-top: -990px;
+      font-size: 13px;
+      margin-left: 2.5%;      
+    }
+
+    #introText{
+      width: 80%;
+      font-size: 10px;
+      margin-top: -1000px;
+      padding-left: 5%;
+    }
+
+    .firstImg{
+      display: none;
+    }
+
+    .vidImg{
+      position: absolute;
+      top:  43%;
+      left: 8%;
+    }
+
+    .play{
+      position: absolute;
+      top: 52%;
+      left: 40%; 
+    }
+
+    .btn1{
+      display: none;
+    }
+
+    .image{
+     display: none;
+    }
+
+    .servicesTitle{
+      position: absolute;
+      top: 72%;
+      left: 24%;
+      font-size: 19px;
+      color:#B97612;
+    }
+
+    .servicesText{
+      color: gray;
+      font-size: 10px;
+      position: absolute;
+      top: 78%;
+      width: 82%;
+      
+    }
+
+    .Servrenovation{
+      position: absolute;
+      top: 116%;
+      left: 4.5%;
+      height: 100px;
+      width: 100px;
+      outline: 2px solid #c48931;
+    }
+
+    .Servresturaunt{
+      position: absolute;
+      top: 116%;
+      left: 33.75%;
+      height: 100px;
+      width: 100px;
+      outline: 2px solid #c48931;
+    }
+
+    .Servkitchen{
+      position: absolute;
+      top: 116%;
+      left: 63%;
+      height: 100px;
+      width: 100px;
+      outline: 2px solid #c48931;
+    }
+
+    .projectsheader{
+      position: absolute;
+      top: 135%;
+      left: 22%;
+      font-size: 19px;
+    }
+
+    .projectsheader2{
+      position: absolute;
+      top: 135%;
+      left: 42%;
+      font-size: 19px;
+    }
+
+    .listDiv{
+      position: absolute;
+      top: 140%;
+      left: -6%;
+    }
+
+    #list1{
+      font-size: 10px;
+    }
+
+    #list{
+      font-size: 10px;
+    }
+
+    #card1{
+     display: none;
+    }
+    #card2{
+      position: absolute;
+      top: 150%;
+      left: 10%;
+      height: 120px;
+      width: 120px;
+    }
+    #card3{
+      display: none;
+    }
+   
+    #card4{
+      position: absolute;
+      top: 150%;
+      left: 50%;
+      height: 120px;
+      width: 120px;
+    }
+    #card5{
+      position: absolute;
+      top: 168%;
+      left: 10%;
+      height: 120px;
+      width: 120px;
+    }
+    #card6{
+     display: none;
+    }
+
+    #card7{
+     display: none;
+    }
+   
+    #card8{
+      position: absolute;
+      top: 168%;
+      left: 50%;
+      height: 120px;
+      width: 120px;
+    }
+
+    .textContent{display: none;}
+
+    .card_title{
+      display: block;
+      font-size: 10px;
+      margin-top: 8px;
+      margin-left: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .divPic{
+      display: none;
+    }
+
+    .customerRevTitle{
+      display: none;
+    }
+
+    .reviewImg{
+      display: none;
+    }
+
+    .reviewText{
+      display: none;
+    }
+
+    .guy{display: none;}
+
+    .luxuryTitle{
+      position: absolute !important;
+      top: 190% !important;
+      left: 17% !important;
+    }
+
+    .luxuryTitle2{
+      position: absolute !important;
+      top: 190% !important;
+      left: 45% !important;
+    }
+
+    .luxuryText{
+      position: absolute !important;
+      top: 195% !important;
+      left: 4% !important;
+      width: 90%;
+      font-size: 9.5px;
+    }
+    .btn{
+      position: absolute !important;
+      top: 198.7% !important;
+      left: 33% !important;
+      font-size: 9px !important;
+      width: 25%;
+      border: none;
+    }
+
+    #designCard1{
+      position: absolute !important;
+      top: 205% !important;
+      left: 4% !important;
+      width: 85% !important;
+    }
+    #designCard2{
+      position: absolute !important;
+      top: 280% !important;
+      left: 4.5% !important;
+      width: 84% !important;
+    }
+    #designCard3{
+      position: absolute !important;
+      top: 350% !important;
+      left: 5.7% !important;
+      width: 82% !important;
+    }
+
+    .footerDiv{
+      position: absolute !important;
+      top: 420% !important;
+      width: 93.5% !important;
+      height: 1000px !important;
+    }
+
+    .footerTitle{
+      position: absolute;
+      top: 6%;
+      left: 20%;
+      font-size: 20px;
+    }
+    
+    .footerText{display: none;}
+
+    #footerCard{
+      position: absolute;
+      top: 16%;
+      /* left: -4.2%; */
+      width: 90% !important;
+      
+    }
+    .footerElements{display: none;}
+    .footerContacts{
+      position: absolute !important;
+      top: 40% !important;
+      left: 5% !important;
+      font-size: 20px !important;
+    }
+    .footerContacts1{
+      position: absolute !important;
+      top: 60% !important;
+      left: 5% !important;
+      font-size: 20px !important;
+    }
+    #msg{
+      position: absolute !important;
+      top: 54% !important;
+      left: 5% !important;
+      font-size: 20px !important;
+    }
+    .footerContacts2{
+      position: absolute !important;
+      top: 45% !important;
+      left: 5% !important;
+      font-size: 20px !important;
+    }
+    #mail{
+      position: absolute !important;
+      top: 72% !important;
+      left: 5% !important;
+      font-size: 20px !important;
+    }
+
+    .sendBtn1{
+      position: absolute !important;
+      top: 484.5% !important;
+      left: 71% !important;
+    }
+    .sendBtn2{
+      position: absolute !important;
+      top: 506% !important;
+      left: 71% !important;
+    }
+
+    .socialLogos1{
+      position: absolute !important;
+      top: -60% !important;
+      left: 27% !important;
+    }
+    .socialLogos2{
+      position: absolute !important;
+      top:  -60% !important;
+      left: 39% !important;
+    }
+    .socialLogos3{
+      position: absolute !important;
+      top:  -60% !important;
+      left: 51% !important;
+    }
+    .socialLogos4{
+      position: absolute !important;
+      top:  -60% !important;
+      left: 63% !important;
+    }
+    .copyRightsdiv{
+      position: absolute;
+      top: 72%;
+      width: 99.95%;
+      
+    }
+    #copyRightsText{
+      font-size: 11px !important;
+    }
+    .copyRightsText2{
+      font-size: 11px !important;
+      padding-left: 140px;
+      padding-top: 9px;
+    }
+
+    .footerlogos1{
+      position: absolute !;
+      top: 440.5% !important;
+    }
+    .footerlogos2{
+      position: absolute !;
+      top: 445.5% !important;
+    }
+    .footerlogos3{
+      position: absolute !;
+      top: 450.4% !important;
+    }
+    .footerlogos4{
+      position: absolute !;
+      top: 456% !important;
+    }
+
+    #upButton{
+      display: none;
+    }
+
+
+
+
+
+}
+
+
+
+
